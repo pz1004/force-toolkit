@@ -7,13 +7,16 @@ Which observations contributed to a correlation estimate? FORCE and MAD-FORCE co
 With Git and Python 3.11–3.13 installed, run these commands from an empty directory on Linux or macOS. On Windows PowerShell, replace the activation line with `.\.venv\Scripts\Activate.ps1`.
 
 ```sh
-git clone --branch v0.2.1 --depth 1 https://github.com/pz1004/force-toolkit.git
+git clone https://github.com/pz1004/force-toolkit.git
 cd force-toolkit
+git checkout --detach 6be77d150cc11cb9f18bf92d3fe1c056b47e7120
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install .
 python examples/common_input.py
 ```
+
+You can also extract the [source ZIP for this commit](https://github.com/pz1004/force-toolkit/archive/6be77d150cc11cb9f18bf92d3fe1c056b47e7120.zip) and run the commands starting at `python -m venv .venv` from its top-level directory.
 
 The example generates 2,000 rows and 20 features locally. For features 0 and 1 it prints:
 
@@ -27,10 +30,10 @@ The script checks each Pearson value against NumPy on that estimator’s accepte
 
 ### Using the wheel
 
-In an activated environment, install the release wheel directly:
+If you have downloaded the 0.2.1 wheel, run this command from its directory in an activated environment.
 
 ```sh
-python -m pip install https://github.com/pz1004/force-toolkit/releases/download/v0.2.1/force_toolkit-0.2.1-py3-none-any.whl
+python -m pip install ./force_toolkit-0.2.1-py3-none-any.whl
 ```
 
 This example runs from any directory after installation. It prints the number of jointly accepted rows and their correlation for one pair.
@@ -46,7 +49,7 @@ if details["pair_validity"][0, 1]:
     print(int(details["accepted_counts"][0, 1]), fit.get_correlation()[0, 1])
 ```
 
-NumPy and Numba are the direct runtime dependencies. Numba compiles kernels on first use. The downloadable source archive includes the example scripts. [Installation and development](docs/installation.md) · [Release downloads](https://github.com/pz1004/force-toolkit/releases/tag/v0.2.1)
+NumPy and Numba are the direct runtime dependencies. Numba compiles kernels on first use. The downloadable source archive includes the example scripts. [Installation and development](docs/installation.md) · [Release downloads](https://github.com/pz1004/force-toolkit/releases)
 
 ## Choose an estimator
 
@@ -59,6 +62,8 @@ NumPy and Numba are the direct runtime dependencies. Numba compiles kernels on f
 | `DualBoundForceEstimator(p, k)` | Normalized transformed scatter | Rows after the calibration prefix (default 512), sketch rank `k` |
 
 Supply a dense, finite real matrix shaped `(rows, features)`, or one row of shape `(features,)` for online updates. Keep feature count and order consistent. `fit` starts fresh, `update_batch` continues a stream, and `finalize` returns a snapshot.
+
+Stationary fits expose final bounds, so you can replay the original rows to identify accepted pairs. Streaming fits retain counts and moments. Exact row identities and timestamps require logging acceptance as the stream is processed or replaying the timestamped input in order.
 
 For Pearson readouts, use `pair_validity` before interpreting an entry. Zero can be a placeholder for too few observations or zero variance. Because different pairs can use different rows, the assembled matrix can have a negative eigenvalue. Check positive semidefiniteness before using it in a procedure that requires it. [Statistical contracts](docs/statistical-contracts.md) · [API and architecture](docs/migration.md)
 

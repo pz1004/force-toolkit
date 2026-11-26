@@ -3,8 +3,9 @@
 Use CPython 3.11–3.13. From an empty directory, clone version 0.2.1, activate a virtual environment and run the examples.
 
 ```sh
-git clone --branch v0.2.1 --depth 1 https://github.com/pz1004/force-toolkit.git
+git clone https://github.com/pz1004/force-toolkit.git
 cd force-toolkit
+git checkout --detach 6be77d150cc11cb9f18bf92d3fe1c056b47e7120
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install .
@@ -13,7 +14,7 @@ python examples/common_input.py
 python tools/report_020.py
 ```
 
-On Windows PowerShell activate with `.\.venv\Scripts\Activate.ps1`. For a downloaded wheel, install `python -m pip install ./force_toolkit-0.2.1-py3-none-any.whl`, extract `force_toolkit-0.2.1.tar.gz` and run the same scripts from its root. For a checkout-free example, see [Using the wheel](../README.md#using-the-wheel). [Release downloads](https://github.com/pz1004/force-toolkit/releases/tag/v0.2.1)
+On Windows PowerShell activate with `.\.venv\Scripts\Activate.ps1`. For a downloaded wheel, install `python -m pip install ./force_toolkit-0.2.1-py3-none-any.whl`, extract `force_toolkit-0.2.1.tar.gz` and run the same scripts from its root. For a checkout-free example, see [Using the wheel](../README.md#using-the-wheel). [Release downloads](https://github.com/pz1004/force-toolkit/releases)
 
 Confirm the interpreter is using version 0.2.1 with `python -c "import force_toolkit as ft; print(ft.__version__, ft.__file__)"`.
 
