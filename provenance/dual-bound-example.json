@@ -1,0 +1,26 @@
+{
+  "upstream_commit": "9cac01ddb7261b81dba68ec71186f4af9c1eb748",
+  "upstream_example": "README.md, seeded batch example",
+  "toolkit_version": "0.2.0",
+  "input_sha256": "6869b0584252e08cc76a84ef5c01366ce66944dfc0989eee6d37935fde3a8f4a",
+  "configuration": {
+    "p": 20,
+    "k": 10,
+    "calibration_size": 512,
+    "marginal_lambda": 2.0,
+    "parallel_lambda": 4.0,
+    "residual_lambda": 2.0
+  },
+  "input_shape": [
+    2000,
+    20
+  ],
+  "output_shape": [
+    20,
+    20
+  ],
+  "all_normalized_scatter_entries_equal": true,
+  "upstream_n": 1488,
+  "toolkit_n": 1488,
+  "normalized_scatter_01": 0.9873888335953267
+}

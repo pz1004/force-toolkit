@@ -1,0 +1,30 @@
+{
+  "wheel_sha256": "1af6315d0a072d795c36f802fb083ee71198696f4d9bc0c7aa49cc6821970b43",
+  "files": {
+    "_validity.py": "9c9f4d172cdb2c7e834068395e4be49a161d64b65fa07a8efd7f7250fb557f88",
+    "_exceptions.py": "5660324827520d0f3d78412e387325385176fa4bce99bc1bbe3baa054e1b6c33",
+    "_validation.py": "a63dfa2eefa7f5839311c075a764c4f5a11326ca0014e477cf92d41b87bf4950",
+    "api.py": "cebb30f919efb8b170a597a313c5a616d6e4f00f0204fc9f07f2eb5cf37870f8",
+    "__init__.py": "a89cb8757c251e3b16e304cb1770d604530681d98f9608b5b7a13e6e9f61e5e9",
+    "_force/core.py": "c351fcb4ebc7200735f75a82d945154d86b4115d8829b9c08028c356383223b1",
+    "_force/_numeric.py": "6e39cbb71c43bf347dd8f1c0faad1e56b84c6f546e639b0dee6f4f89200d842c",
+    "_force/_moments.py": "81e9f4163bd87423ac87a0a4091c63f1a7ee61f5440e076ce2c1b152ef2ceb54",
+    "_force/_input.py": "3f296e261b62ac438629055000725d71c5cecf7db451729adc3b8ec614cab1e9",
+    "_force/_quantiles.py": "ebd98bcb918d59ea1a10fd6a7b49cd4ba051aaa6daa37f8b9f214eb1e55539a5",
+    "_force/streaming.py": "a847e73a53f803eb601a043de9cb7cb673bacbaf18f7a1a9242b6dfff84f58af",
+    "_force/__init__.py": "b671aaae102d97f66d233b5e342ca7f3a7e0f4676f02673086ab8c1ca924a649",
+    "_dual/_fd.py": "95da2ceb32c3b43c212135c32ed7ffe947f05381a7dcd3ad019c07cf205c1fad",
+    "_dual/__init__.py": "b671aaae102d97f66d233b5e342ca7f3a7e0f4676f02673086ab8c1ca924a649",
+    "_dual/estimator.py": "b9c492345d91e9347571900b3e8b8b1f47ce4e2047894b1a708c4a645b9e5fe8",
+    "_mad/_kernels.py": "e11c435a584c4d9b00cd7e23145eb4d12154a2a9b534e232081a28b4bb47672e",
+    "_mad/p2.py": "96fc843663b846e7ebb6f19f25e269db54fe52e7bfe7d14332c5e6ce314c3a59",
+    "_mad/drift_mad_force.py": "68e1e856f3692e343a592e1007444e2a428b6716e0501a3aa9f81b8199f273e4",
+    "_mad/adwin.py": "3d6df55584fca305b635aae70f9514b350a4be6662207b0588dd5097357283f8",
+    "_mad/stationary.py": "def672c87ae34691399a7568431419420b0618c61490c6f8cf5930b66a1a02fc",
+    "_mad/ter.py": "06d1c1de99d9f2d5946badc98eeaf54393147a067fe6d67f5c8eb2ba2b0ff3f0",
+    "_mad/common.py": "544ada4147fa0ee4934a47afa3661fa9377d5b580935aa14916a2680fcb009f3",
+    "_mad/__init__.py": "b671aaae102d97f66d233b5e342ca7f3a7e0f4676f02673086ab8c1ca924a649",
+    "_mad/streaming_mad.py": "a25342bf69da8f0f89e51b06931351c5e336459aa4790171c5ac47743dac7f4b",
+    "_mad/diagnostics.py": "4e08a127ce6fb7a08c1b0bfee3617b2598b0e55457479f1e55fa7bac035ffbdb"
+  }
+}

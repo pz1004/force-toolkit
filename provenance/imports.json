@@ -1,0 +1,290 @@
+[
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "src/force/core.py",
+    "destination": "src/force_toolkit/_force/core.py",
+    "original_sha256": "c351fcb4ebc7200735f75a82d945154d86b4115d8829b9c08028c356383223b1",
+    "import_sha256": "c351fcb4ebc7200735f75a82d945154d86b4115d8829b9c08028c356383223b1"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "src/force/streaming.py",
+    "destination": "src/force_toolkit/_force/streaming.py",
+    "original_sha256": "b9e9c88ed9c58b913f4d14c83a1b5ae04aaef4da26a177d0f8764668314694b2",
+    "import_sha256": "b9e9c88ed9c58b913f4d14c83a1b5ae04aaef4da26a177d0f8764668314694b2"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "src/force/_input.py",
+    "destination": "src/force_toolkit/_force/_input.py",
+    "original_sha256": "3f296e261b62ac438629055000725d71c5cecf7db451729adc3b8ec614cab1e9",
+    "import_sha256": "3f296e261b62ac438629055000725d71c5cecf7db451729adc3b8ec614cab1e9"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "src/force/_moments.py",
+    "destination": "src/force_toolkit/_force/_moments.py",
+    "original_sha256": "81e9f4163bd87423ac87a0a4091c63f1a7ee61f5440e076ce2c1b152ef2ceb54",
+    "import_sha256": "81e9f4163bd87423ac87a0a4091c63f1a7ee61f5440e076ce2c1b152ef2ceb54"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "src/force/_numeric.py",
+    "destination": "src/force_toolkit/_force/_numeric.py",
+    "original_sha256": "6e39cbb71c43bf347dd8f1c0faad1e56b84c6f546e639b0dee6f4f89200d842c",
+    "import_sha256": "6e39cbb71c43bf347dd8f1c0faad1e56b84c6f546e639b0dee6f4f89200d842c"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "src/force/_quantiles.py",
+    "destination": "src/force_toolkit/_force/_quantiles.py",
+    "original_sha256": "ebd98bcb918d59ea1a10fd6a7b49cd4ba051aaa6daa37f8b9f214eb1e55539a5",
+    "import_sha256": "ebd98bcb918d59ea1a10fd6a7b49cd4ba051aaa6daa37f8b9f214eb1e55539a5"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "LICENSE",
+    "destination": "licenses/force.txt",
+    "original_sha256": "464fffb9d149f5b6076fb3b86549ac7dff3ec1b8e2236da6321da6f16d557fd9",
+    "import_sha256": "464fffb9d149f5b6076fb3b86549ac7dff3ec1b8e2236da6321da6f16d557fd9"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "pyproject.toml",
+    "destination": "provenance/releases/force.toml",
+    "original_sha256": "b9a5f7bab0a9828735e968161a602583562e07ff1bf558856f8665b2ed3493f6",
+    "import_sha256": "b9a5f7bab0a9828735e968161a602583562e07ff1bf558856f8665b2ed3493f6"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "src/common.py",
+    "destination": "src/force_toolkit/_mad/common.py",
+    "original_sha256": "dfc797d43ef26f9b9c2dfd98ef4e820b0c81fdad4f11f6169c048ef96cad53f4",
+    "import_sha256": "dfc797d43ef26f9b9c2dfd98ef4e820b0c81fdad4f11f6169c048ef96cad53f4"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "src/drift_mad_force.py",
+    "destination": "src/force_toolkit/_mad/drift_mad_force.py",
+    "original_sha256": "6e36c7601c0f196dd6a4879309620d6c880088f1b5d25f7e2acf92560dcc4024",
+    "import_sha256": "3fc967d8a063647cb7ece21cec030f46d845edef0d1fc0ad6361de5bf546de97"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "src/adwin.py",
+    "destination": "src/force_toolkit/_mad/adwin.py",
+    "original_sha256": "ad9b8f1c83892d6ff06af6c74f1791c96c4fd99de7df9494c73ef5a7ba557d48",
+    "import_sha256": "ae7f7fc6af7f96bef181b86df3b8efb9c92c414547c0b1217152c16592a61993"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "src/p2.py",
+    "destination": "src/force_toolkit/_mad/p2.py",
+    "original_sha256": "96fc843663b846e7ebb6f19f25e269db54fe52e7bfe7d14332c5e6ce314c3a59",
+    "import_sha256": "96fc843663b846e7ebb6f19f25e269db54fe52e7bfe7d14332c5e6ce314c3a59"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "src/streaming_mad.py",
+    "destination": "src/force_toolkit/_mad/streaming_mad.py",
+    "original_sha256": "30695fba53228341a5a438299df1c972714f4482762a45a7a0ae771cd94b565e",
+    "import_sha256": "a25342bf69da8f0f89e51b06931351c5e336459aa4790171c5ac47743dac7f4b"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "src/ter.py",
+    "destination": "src/force_toolkit/_mad/ter.py",
+    "original_sha256": "fb6995c4d6f91d7ba4bdbb33986d58838399c06cbe2d5fb0cf06a8aa4f18c453",
+    "import_sha256": "fb6995c4d6f91d7ba4bdbb33986d58838399c06cbe2d5fb0cf06a8aa4f18c453"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "src/diagnostics.py",
+    "destination": "src/force_toolkit/_mad/diagnostics.py",
+    "original_sha256": "87a7123b202dc18ce04375beb6fac97204c5688bb560d0bc239844d61431f29f",
+    "import_sha256": "4e08a127ce6fb7a08c1b0bfee3617b2598b0e55457479f1e55fa7bac035ffbdb"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "LICENSE",
+    "destination": "licenses/mad-force.txt",
+    "original_sha256": "21fc3957cfdd9f864935371a6227a4c83f168f1a5da29be5a9d583ed4b24879e",
+    "import_sha256": "21fc3957cfdd9f864935371a6227a4c83f168f1a5da29be5a9d583ed4b24879e"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "pyproject.toml",
+    "destination": "provenance/releases/mad-force.toml",
+    "original_sha256": "83262519ab1ee616f93ecd7f06ab7e1e74a59b2ff8575617235a5a8d52c2aca5",
+    "import_sha256": "83262519ab1ee616f93ecd7f06ab7e1e74a59b2ff8575617235a5a8d52c2aca5"
+  },
+  {
+    "project": "dual-bound-force",
+    "commit": "9cac01ddb7261b81dba68ec71186f4af9c1eb748",
+    "source": "src/dual_bound_force/estimator.py",
+    "destination": "src/force_toolkit/_dual/estimator.py",
+    "original_sha256": "cf096c4f2ad436a5400dd8af9b96bf922aa1bba3a413d32fb84afba82e25ecb0",
+    "import_sha256": "cf096c4f2ad436a5400dd8af9b96bf922aa1bba3a413d32fb84afba82e25ecb0"
+  },
+  {
+    "project": "dual-bound-force",
+    "commit": "9cac01ddb7261b81dba68ec71186f4af9c1eb748",
+    "source": "src/dual_bound_force/_fd.py",
+    "destination": "src/force_toolkit/_dual/_fd.py",
+    "original_sha256": "95da2ceb32c3b43c212135c32ed7ffe947f05381a7dcd3ad019c07cf205c1fad",
+    "import_sha256": "95da2ceb32c3b43c212135c32ed7ffe947f05381a7dcd3ad019c07cf205c1fad"
+  },
+  {
+    "project": "dual-bound-force",
+    "commit": "9cac01ddb7261b81dba68ec71186f4af9c1eb748",
+    "source": "LICENSE",
+    "destination": "licenses/dual-bound-force.txt",
+    "original_sha256": "918b2d4556e5cf946a9017811dc1bd9494e95130ebaae616ec360a493a2a8812",
+    "import_sha256": "918b2d4556e5cf946a9017811dc1bd9494e95130ebaae616ec360a493a2a8812"
+  },
+  {
+    "project": "dual-bound-force",
+    "commit": "9cac01ddb7261b81dba68ec71186f4af9c1eb748",
+    "source": "pyproject.toml",
+    "destination": "provenance/releases/dual-bound-force.toml",
+    "original_sha256": "0e1de5be1a6f68db52a50395ce66db0db04a5856725bba186476a3bceee047f2",
+    "import_sha256": "0e1de5be1a6f68db52a50395ce66db0db04a5856725bba186476a3bceee047f2"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "tests/test_core.py",
+    "destination": "tests/upstream/_force/test_core.py",
+    "original_sha256": "267beeff69f5ddb88257a0dfd584a1fe4cae4d81dc0e1610b3fa64b3f4d3d6dc",
+    "import_sha256": "7f975f3da9355c935ca759c599d2c91b1aa573bdefcdf499d4593a261e2a370d"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "tests/test_streaming.py",
+    "destination": "tests/upstream/_force/test_streaming.py",
+    "original_sha256": "485ce0d1397ea4c7f86f61b3c6a31461f50364cd36c0a2aae24a0d28a2c423db",
+    "import_sha256": "2de47d33d9656ec3325e29e4dafb55425cdf2e7f6cbbead8e577b6c3b09abeb3"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "tests/test_state.py",
+    "destination": "tests/upstream/_force/test_state.py",
+    "original_sha256": "b45875ce9694f024387af9f7dfdc478ca713662f713a7d85e0199f087b80a27e",
+    "import_sha256": "dab3b997dec28c39b07c5cb1d641ba686fca26abbb362acfe7d523fe41cbb0f3"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "tests/test_quantile_range.py",
+    "destination": "tests/upstream/_force/test_quantile_range.py",
+    "original_sha256": "7c0c39048482ececce8800eabe7bbe7e3421681f55fcf21d3454b8c5b1eb52df",
+    "import_sha256": "98753bb465a47add2aff47eccff1d083180b082502be65402320a37a493a1a67"
+  },
+  {
+    "project": "force",
+    "commit": "68765dba478e23fa72c894a649815dfbffce7888",
+    "source": "tests/test_replay.py",
+    "destination": "tests/upstream/_force/test_replay.py",
+    "original_sha256": "a4f181930503ab4bcc72f342ae9e94edf578afd6a1dbdffd489d0670ba6f8707",
+    "import_sha256": "7313a509cedc4a6bf7c6e713cfed787c64742209eb93ef5619158105748621f0"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_p2.py",
+    "destination": "tests/upstream/_mad/test_p2.py",
+    "original_sha256": "92c85e411a19951b6d8461838953e4c5ba2f43f69cdcee23a033d704b5e175b8",
+    "import_sha256": "a059761293f2e6113ca996437482fbc2fba3fb270985920c193b727f3cc9196c"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_streaming_mad.py",
+    "destination": "tests/upstream/_mad/test_streaming_mad.py",
+    "original_sha256": "37fa9ae9fb73899c20d97ec24eb7f6acd9589be17c723a6d5c526b193ba3dc62",
+    "import_sha256": "1f7f7a7a151c094d3521abc5c23d266fbc3604a42f1f56b970be074bb983f4a8"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_adwin.py",
+    "destination": "tests/upstream/_mad/test_adwin.py",
+    "original_sha256": "834a655f249c73fe3ab29e061378e0a1a485627be8aff8f79ed4266823c59363",
+    "import_sha256": "0d7b392781a6e1bbf765206e4190207074cb577c47bef10cdaa5a7c17790c37b"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_paper_detector.py",
+    "destination": "tests/upstream/_mad/test_paper_detector.py",
+    "original_sha256": "f4c833c340da0398fa1dd74c068552fe923a433187a666528160e7f5273fa91e",
+    "import_sha256": "3c8b6fa6456d978bf7da5a2d212e8b2a0602861fbea3b18cbdc800b95fbb1f83"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_numeric_revision.py",
+    "destination": "tests/upstream/_mad/test_numeric_revision.py",
+    "original_sha256": "0b7ec6799fa1f4eb0e30741c295adbe9962a58d8e8195469e7081bdea9af7867",
+    "import_sha256": "c64566dd1a25d5cfeedadc251d0d19559776c6e90eba3a621f9e09e563541b50"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_diagnostic_failures.py",
+    "destination": "tests/upstream/_mad/test_diagnostic_failures.py",
+    "original_sha256": "4a5614806bbd443dfda3502237481202711f4e2ee4ca4b9b72d169b346b67501",
+    "import_sha256": "cfe3a2adf872366b59e385f250f3dfd9fa45a844514d5b2db756bc2a3aee9e45"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_reset_cooldown.py",
+    "destination": "tests/upstream/_mad/test_reset_cooldown.py",
+    "original_sha256": "253ca6609f70bb2707038ecedd00716d981bcaaf44521da8bccc1203afcb592a",
+    "import_sha256": "e9f8a61aeae3da2521c8b7a0d3c8e42fa7e5089947b79c3108e91579538fa1ff"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_paper_core.py",
+    "destination": "tests/upstream/_mad/test_paper_core.py",
+    "original_sha256": "f1220a55fb3c3a01b9e25d467e47baf834221ff7eedde925f038a85ce6ef01a4",
+    "import_sha256": "ff168f9254871b41bfb03296775f9b08088afd21624c62c9bbe6af3362fc4d6e"
+  },
+  {
+    "project": "mad-force",
+    "commit": "d265ae7d4b893aededcda09eadeb9525bf07428d",
+    "source": "tests/test_drift_mad_force.py",
+    "destination": "tests/upstream/_mad/test_drift_mad_force.py",
+    "original_sha256": "e224cb8e6c09a3d55ee535f7a1c45333f7c5ef8633b8a8ce15cddd7ab16e98e8",
+    "import_sha256": "fe1a8a9808b5eb86c33778fa9670abcf8ff9220102a09529b2ab2c70dd75af46"
+  },
+  {
+    "project": "dual-bound-force",
+    "commit": "9cac01ddb7261b81dba68ec71186f4af9c1eb748",
+    "source": "tests/test_estimator.py",
+    "destination": "tests/upstream/_dual/test_estimator.py",
+    "original_sha256": "f67590bfaad8d401efd0ca531616fc2ece9cf2b947c35dc84a3d764e8a13e612",
+    "import_sha256": "548d99197519f1f0dafd43b9f81adb873b9154cc3ef1c577d6a3968d1d60cefc"
+  }
+]

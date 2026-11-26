@@ -1,0 +1,38 @@
+{
+  "execution_date": "2026-11-23",
+  "software_version": "0.2.0",
+  "platform": "Linux x86_64, CPython 3.13.9",
+  "input_distributions_sha256": {
+    "force_toolkit-0.2.0-py3-none-any.whl": "f45e96cc72f8519dbb768bbb5a7d185c892b1cb303e56946804314f7d36070c1",
+    "force_toolkit-0.2.0.tar.gz": "ebd4c48ce352d46f78be46908604430d8556c2fd0b424084f5f22153ebb5cf8a"
+  },
+  "dependency_lock": "benchmarks/requirements-lock.txt",
+  "pytest": "609 passed",
+  "mad_study_comparison_to_shipped_0_1_1_results": {
+    "REPORT.md": {
+      "shipped_sha256": "40fed494ce18a456b0837dba6aaa4aaaf83aef5af3695698d7fde93c8acf8e17",
+      "identical": true,
+      "rerun_sha256": "40fed494ce18a456b0837dba6aaa4aaaf83aef5af3695698d7fde93c8acf8e17"
+    },
+    "config.json": {
+      "shipped_sha256": "1d28ec7378a1915b6f1a41831683dd6768f46e034dbec4c4db3aab19724c9c15",
+      "identical": true,
+      "rerun_sha256": "1d28ec7378a1915b6f1a41831683dd6768f46e034dbec4c4db3aab19724c9c15"
+    },
+    "provenance.json": {
+      "shipped_sha256": "ea2fe2a252c521e665718f0856fa91aa43d56f9fcd6082ae40870223f638fb4f",
+      "identical": false,
+      "rerun_sha256": "164771f841ea6122937077919495e22cbcd1ab94314f5311b15c5172c6d2c8ca"
+    },
+    "raw.jsonl": {
+      "shipped_sha256": "292a3ddf1bfe2098c7d0c1e9fb8f9798615f94c9ceb12198ed0a11f659ce2b6b",
+      "identical": true,
+      "rerun_sha256": "292a3ddf1bfe2098c7d0c1e9fb8f9798615f94c9ceb12198ed0a11f659ce2b6b"
+    },
+    "summary.json": {
+      "shipped_sha256": "eeb11dace27828c8a576f25d58d3152dbf703c0dbd5a8fb2af94f6e251a885a7",
+      "identical": true,
+      "rerun_sha256": "eeb11dace27828c8a576f25d58d3152dbf703c0dbd5a8fb2af94f6e251a885a7"
+    }
+  }
+}
